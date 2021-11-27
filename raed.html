@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<title> Calculator by Raed  Taleeq</title>
+
+<link rel="stylesheet" href="Calculater.css">
+
+</head>
+
+
+<body>
+<div class="container">
+<fieldset id="container">
+
+<form name="colculator">
+<input id="display" type="text" name="display" readonly>
+
+
+<input class="button digits" type="button" value="7" onclick="colculator.display.value +='7'">
+<input class="button digits" type="button" value="8" onclick="colculator.display.value +='8'">
+<input class="button digits" type="button" value="9" onclick="colculator.display.value +='9'">
+
+<input class="button mathButtons" type="button" value="+" onclick="colculator.display.value +='+'">
+
+<br>
+
+<input class="button digits" type="button" value="4" onclick="colculator.display.value +='4'">
+<input class="button digits" type="button" value="5" onclick="colculator.display.value +='5'">
+<input class="button digits" type="button" value="6" onclick="colculator.display.value +='6'">
+
+<input class="button mathButtons" type="button" value="-" onclick="colculator.display.value +='-'">
+
+<br>
+
+<input class="button digits" type="button" value="1" onclick="colculator.display.value +='1'">
+<input class="button digits" type="button" value="2" onclick="colculator.display.value +='2'">
+<input class="button digits" type="button" value="3" onclick="colculator.display.value +='3'">
+
+<input class="button mathButtons" type="button" value="x" onclick="colculator.display.value +='*'">
+
+
+<br>
+
+<input id="clearButton" class="button" type="button" value="C" onclick="colculator.display.value =''">
+
+<input class="button digits" type="button" value="0" onclick="colculator.display.value +='0'">
+<input class="button mathButtons" type="button" value="=" onclick="colculator.display.value =eval(colculator.display.value)">
+
+<input class="button mathButtons" type="button" value="/" onclick="colculator.display.value +='/'">
+
+</form>
+
+</fieldset>
+</div>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
